@@ -75,6 +75,7 @@
 
 .logo-link{
     padding: 0 !important;
+    padding: 0 50px !important;
 }
 
 .goldback{
@@ -578,23 +579,8 @@ h1 {
 
 }
 
-.header-back.two {
-    background: url('../img/londonnight.jpg') center center no-repeat;
-    background-size: cover;
-}
-
-.header-back.three {
-    background: url('../img/protectionbg.jpg') center center no-repeat;
-    background-size: cover;
-}
-
-.header-back.one {
-    background: url('../img/bg4.jpg') center center no-repeat;
-    background-size: cover;
-}
-
-.header-back.four {
-    background: url('../img/header_four.jpg') 50% 0 no-repeat;
+.customvideo{
+    display: none;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -961,6 +947,10 @@ fieldset[disabled] .btn-primary.active {
         width: 14vh !important;
     }
 
+    .customvideo{
+        display: block;
+    }
+
     .car4{
         width: 25% !important;
     }
@@ -1044,11 +1034,11 @@ fieldset[disabled] .btn-primary.active {
         display: flex;
         justify-content: center; /* 水平居中 */
         align-items: center;
-        padding-right: 7vw;
+        padding-right: 4vw;
     }
 
     .nav-item{
-        padding: 0 40px;
+        
     }
 
     .logo2{
@@ -1376,7 +1366,7 @@ fieldset[disabled] .btn-primary.active {
     }
 
     .header-back.one {
-        background: url('../img/fmian2.jpg') center center no-repeat;
+        background: url('../img/jet.jpg') center center no-repeat;
         background-size: cover;
     }
 
