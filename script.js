@@ -201,15 +201,16 @@ jQuery(function ($) {
         });
     }
 
-    /* ===================================
+    /*
+/* ===================================
        Cube Portfolio
        ====================================== */
 
-    (function ($, window, document, undefined) {
+(function ($, window, document, undefined) {
 
-        // init cubeportfolio
-        $('[id^="js-grid-mosaic-flat-"]').each(function(){
-            $(this).cubeportfolio({
+    // init cubeportfolio for each gallery section
+    $('[id^="js-grid-mosaic-flat-"]').each(function(){
+        $(this).cubeportfolio({
             filters: '#js-filters-mosaic-flat',
             layoutMode: 'mosaic',
             defaultFilter: '*',
@@ -252,8 +253,9 @@ jQuery(function ($) {
             },
         })
     });
-
-        /*Blog Masonry*/
+    
+})();
+/*Blog Masonry*/
         $("#blog-masonry").cubeportfolio({
             layoutMode: 'grid',
             defaultFilter: '*',
