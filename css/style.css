@@ -159,10 +159,10 @@
     /* font-size: 4em !important; */
     left: 0 !important;
     margin-top: 0 !important;
-    min-width: 260px !important;
+    min-width: 400px !important;
     border: none !important;
     text-align: center !important;
-    background-color: rgba(206, 206, 206, 0.889) !important;
+    background-color: rgb(255, 255, 255) !important;
 }
 
 .dropdown-item{
@@ -409,7 +409,7 @@ body {
 	height: 100vh;
   	margin: 0;
   	background-size: 100%;
-    background: linear-gradient(to left,rgb(221, 221, 221),rgb(255, 255, 250),rgb(255, 255, 250),rgb(221, 221, 221));
+    /* background: linear-gradient(to left,rgb(221, 221, 221),rgb(255, 255, 250),rgb(255, 255, 250),rgb(221, 221, 221)); */
   	/* background-image: url("../img/bg2.png"); */
     background-repeat: repeat;
     
@@ -513,7 +513,8 @@ h1 {
 }
 
 .navbar-default {
-    background: rgba(255, 255, 255, 0.967);
+    /* background: rgba(248, 248, 248, 0.954); */
+    background: linear-gradient(to top,rgba(255, 255, 252, 0.986),rgba(221, 221, 221, 0.982));
     border-color: transparent;
     transition: all 0.3s ease-in-out 0s;
 }
@@ -626,7 +627,7 @@ h1 {
 }
 
 .header-back.one {
-    background: url('../img/CATALOG2.jpg') center center no-repeat;
+    background: url('../img/CAT.png') center center no-repeat;
     background-size: cover;
 }
 
@@ -1052,7 +1053,7 @@ fieldset[disabled] .btn-primary.active {
     }
 
     .carousel-caption {
-        left: 8vw;
+        
     }
 
     .featurette-heading {
@@ -1424,7 +1425,7 @@ fieldset[disabled] .btn-primary.active {
     }
 
     .header-back.one {
-        background: url('../img/fmian2.jpg') center center no-repeat;
+        /* background: url('../img/fmian2.jpg') center center no-repeat; */
         background-size: cover;
     }
 
