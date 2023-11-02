@@ -1348,7 +1348,7 @@ fieldset[disabled] .btn-primary.active {
     }
 
     .navbar-default {
-        background: rgba(0, 0, 0, 0.825);
+        background: rgba(236, 236, 236, 0.825);
 
         padding: 15px 0;
     }
@@ -1359,7 +1359,7 @@ fieldset[disabled] .btn-primary.active {
     }
 
     .navbar-default .nav li a {
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
     }
 
     .navbar-default .nav li a:hover {
